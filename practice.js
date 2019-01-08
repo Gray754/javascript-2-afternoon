@@ -5,7 +5,7 @@
 
   You can refresh the page at any time to re-run all the tests.
 */
-blah blah
+
 ////////// PROBLEM 1 //////////
 
 /*
@@ -15,7 +15,8 @@ blah blah
 */
 
 //Code here
-
+var me = {name:"lee",age:25}
+me.name
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +27,7 @@ blah blah
 */
 
 //Code here
-
+var favoriteThings = {band:"Pink Floyd", food:"pizza", person:"Kayla",book:"polar express",movie:"toy story",holiday:"halloween"}
 
 
 /*
@@ -34,7 +35,8 @@ blah blah
 */
 
 //Code here
-
+favoriteThings.car = "jeep wrangler"
+favoriteThings.brand = "corsair"
 
 
 /*
@@ -42,8 +44,8 @@ blah blah
 */
 
 //Code here
-
-
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
 
 ////////// PROBLEM 3 //////////
 
@@ -56,7 +58,10 @@ blah blah
 */
 
 //Code here
-
+var backPack = {};
+var item = "firstPocket"
+backPack["firstPocket"] = item;
+backPack.firstPocket = "chapstick"
 
 
 /*
@@ -64,7 +69,7 @@ blah blah
 */
 
 //Code here
-
+//alert(backPack)
 
 
 /*
@@ -74,7 +79,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+//console.log(backPack)
 
 
 ////////// PROBLEM 4 //////////
@@ -97,7 +102,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = "Tyler S. McGinnis"
+user2.email = "tyler.mcginnis@devmounta.in"
 
 
 
